@@ -61,7 +61,7 @@ class ProxyChecker:
 				pass
 	def send_req(self, proxydict, proxy, proxy_type): 
 		#This block send q request to self.url variable then save the proxy
-		#depends in it's type
+		#depends on it's type
 		req = requests.get(self.url, proxies=proxydict, timeout=5)
 		if(req.status_code == 200):
 			if(proxy_type == "SOCK5"):
