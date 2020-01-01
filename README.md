@@ -1,2 +1,2 @@
-# python_proxy_check
+# Python Proxy Checker
 Python script used for checking proxy server.
